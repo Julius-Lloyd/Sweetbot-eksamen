@@ -181,7 +181,9 @@ nav a {
 	width: 100%;
 	margin-left: 10%;
 }
-
+.active {
+	color: #DF9B67;
+}
 /*----------------Hotbot side-----------------------------------------*/
 .hotLogo {
 	width: 60%;
@@ -197,6 +199,7 @@ nav a {
 	padding: 0% 20% 5% 20%;
 	color: #707070;
 	font-size: 18px;
+	column-count: 2;
 }
 .hotOverskrift {
 	text-align: center;
@@ -396,7 +399,8 @@ div.descbot {
 
 /*------------------slideshov til forsiden-------------------*/
 .case {
-	padding: 5% 20% 2%  ;
+	padding-top: 38px;
+	padding-bottom: 38px;
 	color: #2A1000;
 	text-align: center;
 	font-size: 50px;
@@ -605,8 +609,32 @@ div.descbot {
 	padding-left: 1.6%;
 	padding-right: 1.6%;
 	line-height: 25px;
+	height: 255px;
 }
-
+#services-paragraf1 {
+	float: left;
+	display: block;
+	column-count: 2;
+	padding-bottom: 5%;
+}
+#services-paragraf2 {
+	float: left;
+	display: block;
+	column-count: 2;
+	padding-bottom: 5%;
+}
+#services-paragraf3 {
+	float: left;
+	display: block;
+	column-count: 2;
+	padding-bottom: 5%;
+}
+#services-paragraf4 {
+	float: left;
+	display: block;
+	column-count: 2;
+	padding-bottom: 5%;
+}
 /*------------------ OM OS-------------------------*/
 
 .omos-overskrift{
@@ -617,10 +645,15 @@ div.descbot {
 }
 
 .omos-paragraf{
+	text-align: left;
 	padding-bottom: 10px;
 	padding-left: 1.6%;
 	padding-right: 1.6%;
 	line-height: 25px;
+}
+#omosparagraf1 {
+	column-count: 2;
+	padding-bottom: 1.6%;
 }
 
 .box{
@@ -699,6 +732,9 @@ div.descbot {
 		display: none;
 		width: 80px;
 			
+	}
+	.galres {
+		display: block;
 	}
 	.logoTab {
 		display: none;
